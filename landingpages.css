@@ -1,0 +1,127 @@
+body{
+    background-image: url("https://biobridgeglobal.org/wp-content/uploads/2021/06/Blood-donation-one-more-time-scaled.jpeg");
+    background-size: cover;
+}
+
+
+.buttons {
+    padding: 1em;
+    border-radius: 1em;
+    background: rgb(28, 221, 224);
+    border: none;
+    font-weight: bold;
+    margin-top: 1em;
+    width: 180px;
+    margin-left: 8%;
+    margin-bottom: 3px;
+    }
+    .buttons:hover {
+    background: rgb(240, 160, 12);
+    width:200px;
+    cursor: pointer;
+    }
+
+
+
+.nav-item{
+    font-size: 20px;
+}
+#navbarid{
+    padding-left: 10px;
+    margin: 20px;
+    color:white;
+}
+
+.navbar-nav{
+    margin:0;
+  background-color:#cc0000;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-tables{
+    border-collapse:collapse;
+    margin:25px 1;
+    font-size: 0.9em;
+    min-width: 800px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-top: 5%;
+    margin-left: 28%;
+    margin-bottom: 10%;
+  }
+.content-tables thead tr{
+    background-color: red;
+    color:#f4e2e2;
+    text-align: left;
+    font-weight: bold;
+
+}
+.content-tables th,
+.content-tables td{
+    padding:12px 12px;
+}
+
+.content-tables tbody tr{
+    border-bottom: 1px solid grey;
+
+}
+.content-tables tbody tr:nth-of-type(even){
+    background-color:#f4e2e2;
+}
+
+.content-tables tbody tr:nth-last-type{
+    border-bottom:2px red;
+}
+
+
+.formforfetching * {
+    box-sizing: border-box;
+    }
+    .formforfetching{
+        text-align: center;
+        margin-top: 5%;
+        margin-left:40%;
+        width:20%;
+        border: 3px solid black;
+    }
+    .formforfetching fieldset {
+    border: none;
+    padding: 0;
+    }
+    
+    .formforfetching legend,
+    .formforfetching label {
+    padding: 0;
+    font-weight: bold;
+    }
+    
+    .formforfetching label.choice {
+    font-size: 0.9em;
+    font-weight: normal;
+    }
+    
+    .formforfetching input[type="text"],
+    .formforfetching input[type="tel"],
+    .formforfetching input[type="email"],
+    .formforfetching input[type="datetime-local"],
+    .formforfetching select,
+    .formforfetching textarea {
+    display: block;
+    width: 100%;
+    border: 3px solid black;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 0.9em;
+    padding: 0.3em;
+    background-color:rgba(0, 0, 0, 0.15);
+    }
+    
+    .formforfetching textarea {
+    height: 100px;
+    }
+    
+
+
+
+    

@@ -1,0 +1,89 @@
+body{
+  background-image: url("https://wallpaperaccess.com/full/1586344.jpg");
+ background-size: cover;               
+  background-repeat:   no-repeat;
+  background-position: center center;             
+}
+
+
+
+.myForm {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 1em;
+    width: 20em;
+    padding: 1em;
+   width:90%;
+    }
+    .bloodrequestform{
+      margin: auto;
+      width: 30%;
+      border: 2px solid;
+      padding: 10px;
+      margin-top: 5%;
+     
+    }
+    .bloodrequestforms{
+      margin: auto;
+      width: 30%;
+      border: 2px solid;
+      padding: 10px;
+     
+    }
+    
+    .myForm * {
+    box-sizing: border-box;
+    }
+    
+    .myForm fieldset {
+    border: none;
+    padding: 0;
+    }
+    
+    .myForm legend,
+    .myForm label {
+    padding: 0;
+    font-weight: bold;
+    }
+    
+    .myForm label.choice {
+    font-size: 0.9em;
+    font-weight: normal;
+    }
+    
+    .myForm input[type="text"],
+    .myForm input[type="tel"],
+    .myForm input[type="email"],
+    .myForm input[type="password"],
+    .myForm input[type="datetime-local"],
+    .myForm select,
+    .myForm textarea {
+    display: block;
+    width: 100%;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 0.9em;
+    padding: 0.3em;
+    background-color:rgba(236, 228, 228, 0.5);
+    }
+    
+    .myForm textarea {
+    height: 100px;
+    border-radius: 20px;
+    }
+    
+    .button {
+    padding: 1em;
+    border-radius: 1em;
+    background: rgb(28, 221, 224);
+    border: none;
+    font-weight: bold;
+    margin-top: 1em;
+    width: 200px;
+    margin-left: 25%;
+    }
+    .button:hover {
+    background: rgb(240, 160, 12);
+    width:250px;
+    cursor: pointer;
+    }
+
+    
